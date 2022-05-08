@@ -5,6 +5,10 @@ print(colors)
 print(type(colors))
 print()
 
+#lists can be amended - change a value
+colors[0] = "chicken"
+print(colors)
+
 #any type of value can be added to the list
 sundry = ['John', 3.14, 7, False]
 
